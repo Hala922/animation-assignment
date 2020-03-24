@@ -1,0 +1,109 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="CupIcon.png" type="image/x-icon" />
+    <meta name="description" content="Assignment store " />
+    <meta name="keywords" content="web design  Assignment store" />
+    <link href="StyleSheet.css" rel="stylesheet" />
+    <title>Pearl Cup </title>
+</head>
+
+<body>
+    <script>
+       function submitOrd()
+          { alert('Thank you for your business') }
+       function cancleOrd()
+         { confirm('Sorry for not being able todo business with you \n privent this page from creating additional diolog');}
+    </script>
+
+    <header>
+        <div class="boxHedr2">
+            <h3> ONLINE ORDER </h3>
+        </div>
+    </header>
+    <section>
+        <br />
+            <h3>  our beans</h3>
+            <p>
+                <cite>FROM MOUNTAINTOP TO COUNTERTOP</cite> Our coffee master,Jay Isais,
+                only selects the top 1% of Arabica beans from the world’s best growing 
+                regions in East Africa, Latin America, and the Pacific.We roast in small
+                batches at our facility in Camarillo, CA, where we find the roast hat best 
+                suits the beans from each origin and captures what makes each country’s
+                coffee unique. In other words, we don’t do anything halfway.
+            </p>
+    </section>
+    <div class="Order-menue">
+        <table>
+                    <tr>
+                        <td>
+                            <select name="HotBeverage">
+                                <optgroup label="HotBeverage">
+
+                                    <option>Hot Bevrage</option>
+                                    <option value="Americano">Americano</option>
+                                    <option value="cofeeLatee">Caffe Latte</option>
+                                    <option value="Caramel">Caramel Carretto</option>
+                                    <option value="Vanilla">Vanilla Bean Latee</option>
+                                    <option value="Moccaccino">Moccaccino</option>
+                                    <option value="Esspresso">Esspresso</option>
+                                </optgroup>
+                                
+                            </select>
+                        </td>
+                        <td>
+                            <input max="99" min="0" value="0" type="number" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <select name="coldBeverage">
+                                <optgroup label="ColdBeverage">
+                                    <option>cold Beverage</option>
+                                    <option value="Moccaccino">Ice Moccaccino</option>
+                                    <option value="Icetee">Ice Caffe Latee</option>
+                                    <option value="FroCho">FroCho</option>
+                                    <option value="Almondsmoth"> Almond Date Smothie</option>
+                                    <option value="icetea">Brewed Ice Tea</option>
+                                    <option value="GreenMangoBoost">Green Mango Boost</option>
+                                </optgroup>
+                            </select>
+                        </td>
+                        <td>
+                            <input max="99" min="0" value="0" type="number" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <select  name="Bakery" size="1">
+                                <optgroup label="Bakery">
+                                    <option>Bakery</option>
+                                    <option value="Muffin">Carrot Oat Muffin</option>
+                                    <option value="Scone">Wild Bluberry Scone</option>
+                                    <option value="bCroissant">butter Croissant</option>
+                                    <option value="aCroissant">Chocolate Almond Croissant</option>
+                                    <option value="BanannaLoaf">Bananna Loaf</option>
+                                    <option value="Cookie">Chocolate Chip Cookie</option>
+                                </optgroup>
+                            </select>
+                        </td>
+                        <td>
+                            <input max="99" min="0" value="0" type="number" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td> <button class="button" onclick="submitOrd()">Order Now</button></td>
+                        <td> <button class="button" onclick="cancleOrd()">Cancel</button> </td>
+                    </tr>
+
+         </table>
+     </div>
+     
+   
+
+
+</body>
+</html>

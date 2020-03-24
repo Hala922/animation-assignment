@@ -1,0 +1,236 @@
+﻿/*{ margin:0; padding:0;}*/
+.clr {    clear: both;}
+#Sidemenu a {
+    position: absolute;
+    left: -140px;
+    transition: 0.3s;
+    font-family: Arial;
+    padding: 15px;
+    width: 135px;
+    color: rgb(46, 107, 107);
+    text-decoration: none;
+    border-radius: 0 5px 5px 0;
+}
+#Sidemenu a:hover {
+        left: 0px;
+ }
+iframe {
+    width: 470px;
+    height: 590px;
+    border-style: none;
+  
+}
+
+#home {
+    top: 100px;
+    background-color: rgb(46, 22, 6);
+}
+#BstSal {
+    top: 160px; 
+    background-color: rgb(243, 231, 164);
+}
+#Treat {
+    top: 220px;
+    background-color: #43bbbb;
+}
+#GiftItems {
+    top: 280px;
+    background-color: rgb(243, 231, 164);
+}
+#Order {
+    top: 340px;
+    background-color: rgb(46, 22, 6);
+}
+
+.boxHedr1,h1 {
+    background-color: 	rgb(46, 22, 6);
+    color: bisque;
+    margin-bottom: 5px;
+    padding: 5px ;
+    float: right;
+    min-width: 95%;
+    box-shadow: 10px 20px 30px gray;
+    font-family: Arial, Helvetica, sans-serif;
+     /*   font-style:  oblique;*/
+        margin: 0;
+ }
+
+.boxHedr2 {
+    background-color: bisque;
+    color: rgb(46, 22, 6);
+    margin: 5px 0 15px 0;
+    padding: 0 5px 0 5px;
+    width: 60%;
+    box-shadow: 10px 20px 30px gray;
+}
+
+ .boxHedr2 h2, h3, h4 {
+        font-family: Geneva;
+        font-style: oblique;
+        margin: 0;
+        padding: 5px;
+        text-align: center; 
+         color: rgb(66, 46, 24);
+   }
+
+
+footer {
+    
+   position:fixed;
+   margin-bottom:10px; 
+   bottom:0;
+   color: rgb(245, 159, 60);
+  
+}
+select ,input {
+    background-color: #333;
+    color: bisque;
+    padding: 10px 15px;
+    margin: auto;
+  
+   }
+.Order-menue {
+    background-color: rgba(106, 140, 148, 0.486);
+    border: 1px rgb(179, 230, 243, 0.431) solid;
+    color : rgb(46, 22, 6);
+    width: 90%;
+    padding: 5px;
+    border-radius: 25px;
+    font-weight: 600;
+  }
+  .menues {
+    background-color: rgba(106, 140, 148, 0.486);
+    border: 1px rgb(179, 230, 243, 0.431) solid;
+    color : rgb(46, 22, 6);
+    width: 100%;
+    padding: 0px;
+    border-radius: 25px;
+    font-weight: 600;
+  }
+
+
+
+.Order-menue tr  {
+    padding: 5PX;
+  }
+
+.Order-menue td {
+    padding-bottom: 6px;
+   
+}
+.dropdown-content a:hover {
+    background-color: white;
+}
+
+
+.menue table  {
+    border: 1px #ccc solid;
+    background-color:#e5e5e5;
+    width:100%;
+    border-radius: 15px;
+    margin: auto;
+}
+
+.menue tbody {
+    
+    color: #333; 
+    font-style:oblique;
+    font-weight: 600;
+}
+
+.menue tfoot {
+    background-color: transparent;
+}
+
+.button {
+    background-color: bisque;
+    color: #333;
+    padding: 10px 15px;
+    margin: auto;
+    border: none;
+    border-radius:5px;
+}
+  
+a {
+    text-decoration: solid;
+    font-size:initial;
+    color: #413d10;
+}
+p,section {
+    color:#28fdfd;
+}
+
+.debuleBlock a {
+   font: bold 15px verdana;
+   color:rgb(199, 144, 41);
+   
+}
+.debuleBlock a:hover {
+    color: rgb(199, 144, 41);
+    left: 0px;
+}
+
+    a:visited {
+        color:rgb(245, 159, 60);
+    }
+
+    a:active {
+        color: green;
+    }
+a:link {
+    color: goldenrod;
+}
+.triplBlock {
+    float: left;
+    width: 30%;
+    border: 1px ridge bisque;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.debuleBlock {
+    float: left;
+    width: 45%;
+    border: 0px ridge #ccc ;
+    padding: 10px;
+    margin:0 5px 0 5px;
+    box-sizing: border-box;
+}
+.clr {
+    clear: both;
+}
+
+#mainBlock {
+    background-image: url("./images/blue_MG .jpg");
+}
+
+
+bod {
+    background-color: #f4f4f4;
+    color: #555555;
+    font-family: normal,Arial Helvetica,sans-serif;
+    line-height:1.6em;
+}
+
+
+
+
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+article {
+    margin-top: 20px;
+    border: 1px #ccc;
+    padding: 10px;
+    float: right;
+    width: 80%;
+    height: 100%;
+}
+.box-2{
+    border:dotted #ccc;
+    padding:20px;
+    margin:20px 0;
+}
+
+

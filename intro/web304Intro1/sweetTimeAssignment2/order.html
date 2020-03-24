@@ -1,0 +1,114 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="./images/chocolate-icn.png" type="image/x-icon" />
+    <meta name="description" content="Assignment store " />
+    <meta name="keywords" content="web design  Assignment store" />
+    <link href="StyleSheet.css" rel="stylesheet" />
+    <title>Pearl Cup </title>
+    <script> 
+       function submitOrd()
+          { alert('Thank you for your business') }
+      
+       function cancleOrd()
+         { confirm('Sorry for not being able todo business with you \n privent this page from creating additional diolog');}
+      
+       function fVerifyInput(evt)
+        { evt = (evt) ? evt : window.event;
+          var charCode = (evt.which) ? evt.which : evt.keyCode;
+              if ((charCode >= 48 && charCode <= 57)||charCode== 45) 
+                 { return true; }
+             return false;	
+        }
+    </script>
+    
+</head>
+
+<body>
+    <header>
+        <div class="boxHedr2">
+            <h3> ONLINE ORDER </h3>
+        </div>
+    </header>
+    <section>
+        <br />
+            <h3>  Try our COCO beans    </h3>
+            <p>
+                <cite>FROM MOUNTAINTOP TO COUNTERTOP</cite> With 
+                each product comes a story; ingredients, history, people, a journey from a thought bubble to a taste experience. Each new bite becomes a part of this story.
+            </p>
+    </section>
+    <div class="Order-menue">
+        <table>
+                    <tr>
+                        <td>
+                            <select name="bestSelling">
+                                <optgroup label="bestSelling">
+                                    <option>Best Selling</option>
+                                    <option value="TrpleBats">Trple Bats</option>
+                                    <option value="OurSignature">Our Signature</option>
+                                    <option value="black berry Bar">black berry Bar</option>
+                                    <option value="strawberryheaven">strawberry heaven</option>
+                                    <option value="chestnuttoffee">chestnut toffee</option>
+                                    <option value="bacididama">baci di dama</option>
+                                </optgroup>
+                                
+                            </select>
+                        </td>
+                        <td>
+                        <input                           maxlength="3" onkeypress="return fVerifyInput(event);" placeholder="999" size="3" type="text"/>
+                        </td>
+                    </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <select name="TreatMenu">
+                                <optgroup label="treatMenu">
+                                    <option>treat Menu</option>
+                                    <option value="saltedcaramel">salted caramel</option>
+                                    <option value="HotChocolateGianduja">Hot Chocolate Gianduja</option>
+                                    <option value="tubegianduj"> tube gianduj</option>
+                                    <option value="Drinking chocolatecollection">Drinking chocolate collection</option>
+                                    <option value="Zaletti">Zaletti</option>
+                                    <option value="SevilleOrangePeel">Seville Orange Peel</option>
+                                </optgroup>
+                            </select>
+                        </td>
+                        <td>
+                            <input                           maxlength="3" onkeypress="return fVerifyInput(event);" placeholder="999" size="3" type="text"/>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <select name="GiftList">
+                                <optgroup label="Gift list">
+                                    <option value="Giftlist">Gift </option> 
+                                    <option value="MacronBox">Macron Box</option>  
+                                    <option value="nutellaflood">nutella flood</option>
+                                    <option  value="birchbranch">birch branch</option>
+                                    <option value="RevoTubes">Revo Tubes</option>
+                                    <option value="BowlMed">Bowl Med</option>
+                                    <option value="VeganBox">Vegan Box</option>
+                                </optgroup>
+                            </select>
+                        </td>
+                        <td>
+                            <input                           maxlength="3" onkeypress="return fVerifyInput(event);" placeholder="999" size="3" type="text"/>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td> <button class="button" onclick="submitOrd()">Order Now</button></td>
+                        <td> <button class="button" onclick="cancleOrd()">Cancel</button> </td>
+                    </tr>
+
+         </table>
+     </div>
+     
+   
+
+
+</body>
+</html>

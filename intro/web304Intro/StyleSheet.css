@@ -1,0 +1,95 @@
+﻿
+.clr {    clear: both;}
+
+#mainBlock {
+    background-image: url("images/galarry.jpg");
+}
+
+#boxHedr h2, h3  {
+    /*background: white ;*/
+    position: absolute;
+    top: 5px;
+    margin: 0;
+    padding: 0 5px 0 5px;
+    color: white;
+    text-shadow: 3px 3px 3px #000000;
+    font-family: Geneva;
+    font-style: oblique;
+    font-family: cursive;
+    font-style: italic;
+}
+
+.container {
+    width: 99%;
+    margin: auto;
+    position: absolute;
+    top: 70px;
+    height: 82%;
+    background: #555555;
+    align-items: center;
+    justify-content: center;
+}
+.aside {
+    box-sizing: border-box;
+    font-family: Geneva;
+    font-style: oblique;
+    padding: 5px;
+    text-align: center;
+}
+
+#largBox {
+    margin: 10px 10px 10px 10px;
+    height: auto;
+    width: 70%;
+    float: right;
+    box-sizing: border-box;
+}
+
+.sideDisc {
+    margin-left: 10px;
+    height: auto;
+    width: 30%;
+    float: left;
+    bottom: 70px;
+    
+
+}
+
+#bodStyle {
+    background-color: #f4f4f4;
+    color: #555555;
+    font-family:Arial,Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 1.6em;
+}
+
+
+footer {
+    position: fixed;
+    margin-bottom: 1px;
+    margin-left: 15px;
+    margin-right: 15px;
+    bottom: 10px;
+    display: inline;
+    width: 80%;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    width: 100%;
+    float: none !important;
+}
+
+img {
+    box-shadow: 7px 10px 3px grey;
+    border: 7px ridge gray;
+    margin: auto;
+
+}
+img:hover {
+    opacity: 0.3;
+}
+
+
+
+
+
+

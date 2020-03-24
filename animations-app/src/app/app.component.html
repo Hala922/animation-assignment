@@ -1,0 +1,38 @@
+
+<div class="toolbar" role="banner">
+  
+  <span>welcom </span>
+</div>
+
+<div class="content" role="main">
+
+  <div class="card highlight-card card-small">
+    {{ title }}
+  </div>
+
+  <div class="card-container">
+    <a (click)="turnOn()" class="card"  >
+      <span> turn on </span>
+      </a>
+      <a (click)="turnOff()" class="card"   >
+      <span>turn off </span>
+    </a>
+
+  </div>
+    <nav>
+      <button (click)="toggle()">Toggle On/Off</button>
+      
+    </nav>
+  
+    <div [@onOff]="isOn ? 'on':'off' " class="box ">
+  
+     
+<img
+    src='https://images.unsplash.com/photo-1582625368014-2b8090f1eefc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2196&q=80' 
+     alt ='post.title'      width="300"  height="400" 
+          >
+ 
+   </div>
+
+  </div>
+  

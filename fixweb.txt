@@ -1,0 +1,35 @@
+
+<app-help *ngIf="showHelpModal"></app-help>
+<section class="my-5">
+    <div class="container">
+        <h3>Need some help?</h3>
+        <!-- 
+            (click) these bracket means they are event handlers.
+        -->
+        <button class="btn btn-info" (click)="openModal()">Help Please!</button>
+    </div>
+</section>
+---------------
+<div class="modal d-block" tabindex="-1" role="dialog">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Sounds like you need some help!</h5>
+                
+                <button   (click)="openModal()"> 
+                
+                type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <p>Follow these instructions for help:</p>
+                <p>blah blah blah...</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+            
+        </div>
+    </div>
+</div>
